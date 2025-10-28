@@ -7,13 +7,12 @@ const weekDays = [
   { day: "水曜日", active: false },
   { day: "木曜日", active: false },
   { day: "金曜日", active: true, time: "17:00-19:00", label: "正規練習" },
-  { day: "土曜日", active: true, label: "非正規練習" },
+  { day: "土曜日", active: true, time: "19:00-21:00", label: "非正規練習（隔週）" },
   { day: "日曜日", active: false },
 ];
 
 const locations = [
-  "楠キャンパス体育館",
-  "近隣フットサル施設",
+  "楠キャンパス福利厚生棟7F体育館",
 ];
 
 export const Schedule = () => {
@@ -93,7 +92,7 @@ export const Schedule = () => {
                   <DollarSign className="w-5 h-5 text-accent" />
                   <h4 className="font-semibold text-lg">部費</h4>
                 </div>
-                <p className="text-3xl font-bold text-accent">月 1,500円</p>
+                <p className="text-3xl font-bold text-accent">年間 20,000円</p>
                 <p className="text-sm text-muted-foreground mt-2">
                   施設利用料・ボール代・その他雑費
                 </p>

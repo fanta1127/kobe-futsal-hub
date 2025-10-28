@@ -3,9 +3,9 @@ import { Users, Trophy, Target, Award } from "lucide-react";
 import teamImage from "@/assets/team-celebration.jpg";
 
 const stats = [
-  { icon: Users, label: "部員数", value: "40+", color: "text-primary" },
+  { icon: Users, label: "部員数", value: "22名", color: "text-primary" },
   { icon: Trophy, label: "医学部内大会", value: "優勝経験", color: "text-accent" },
-  { icon: Target, label: "週間活動", value: "2-3日", color: "text-primary" },
+  { icon: Target, label: "週間活動", value: "2日", color: "text-primary" },
   { icon: Award, label: "活動拠点", value: "楠キャンパス", color: "text-accent" },
 ];
 
@@ -93,6 +93,17 @@ export const About = () => {
                   <p>
                     学業との両立を第一に考え、無理のない活動スケジュールを組んでいます。
                   </p>
+                  <div className="mt-4 pt-4 border-t">
+                    <h4 className="font-semibold mb-3">学年別部員数</h4>
+                    <div className="grid grid-cols-2 gap-2 text-sm">
+                      <div className="flex justify-between"><span>1年生:</span><span className="font-bold text-primary">3名</span></div>
+                      <div className="flex justify-between"><span>2年生:</span><span className="font-bold text-primary">7名</span></div>
+                      <div className="flex justify-between"><span>3年生:</span><span className="font-bold text-primary">5名</span></div>
+                      <div className="flex justify-between"><span>4年生:</span><span className="font-bold text-primary">2名</span></div>
+                      <div className="flex justify-between"><span>5年生:</span><span className="font-bold text-primary">2名</span></div>
+                      <div className="flex justify-between"><span>6年生:</span><span className="font-bold text-primary">3名</span></div>
+                    </div>
+                  </div>
                 </CardContent>
               </Card>
             </div>
