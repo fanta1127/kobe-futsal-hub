@@ -14,12 +14,8 @@ export const About = () => {
     <section id="about" className="py-20 bg-gradient-to-b from-secondary/30 to-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            チーム紹介
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            最強のチームを目指して
-          </p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">チーム紹介</h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">最強のチームを目指してあああああああああ</p>
         </div>
 
         <div className="max-w-6xl mx-auto space-y-12">
@@ -28,7 +24,7 @@ export const About = () => {
             {stats.map((stat, index) => {
               const Icon = stat.icon;
               return (
-                <Card 
+                <Card
                   key={index}
                   className="text-center border-2 hover:shadow-[var(--shadow-card)] transition-all duration-300 hover:scale-105"
                 >
@@ -73,20 +69,14 @@ export const About = () => {
                   <p>
                     ⚽ Fリーグの<strong>デウソン神戸</strong>に選手を輩出
                   </p>
-                  <p className="text-muted-foreground text-sm">
-                    過去の栄光に満足せず、新たな歴史を創造します
-                  </p>
+                  <p className="text-muted-foreground text-sm">過去の栄光に満足せず、新たな歴史を創造します</p>
                 </CardContent>
               </Card>
             </div>
 
             <div className="space-y-6">
               <div className="rounded-lg overflow-hidden shadow-[var(--shadow-elegant)]">
-                <img 
-                  src={teamImage} 
-                  alt="チーム集合写真" 
-                  className="w-full h-auto object-cover"
-                />
+                <img src={teamImage} alt="チーム集合写真" className="w-full h-auto object-cover" />
               </div>
 
               <Card className="border-2">
@@ -99,8 +89,7 @@ export const About = () => {
                     普段の練習メニューの作成もすべて学生が行っています。
                   </p>
                   <p>
-                    一人一人が主体的に自身のプレーについてだけでなく、
-                    チーム全体のことを考えることができる環境です。
+                    一人一人が主体的に自身のプレーについてだけでなく、 チーム全体のことを考えることができる環境です。
                   </p>
                 </CardContent>
               </Card>
