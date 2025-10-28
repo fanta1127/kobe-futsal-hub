@@ -6,8 +6,9 @@ const weekDays = [
   { day: "火曜日", active: false },
   { day: "水曜日", active: false },
   { day: "木曜日", active: false },
-  { day: "金曜日", active: true, time: "17:00-19:00" },
-  { day: "土日", active: false },
+  { day: "金曜日", active: true, time: "17:00-19:00", label: "正規練習" },
+  { day: "土曜日", active: true, label: "非正規練習" },
+  { day: "日曜日", active: false },
 ];
 
 const locations = [
@@ -52,11 +53,14 @@ export const Schedule = () => {
                     {item.active && 'time' in item && (
                       <div className="text-sm mt-1 opacity-90">{item.time}</div>
                     )}
+                    {item.active && 'label' in item && (
+                      <div className="text-xs mt-1 opacity-75">{item.label}</div>
+                    )}
                   </div>
                 ))}
               </div>
               <p className="mt-6 text-center text-sm text-muted-foreground">
-                週1日の活動で、医学部での学業との両立も可能
+                正規練習（金曜）と非正規練習（土曜）で、学業との両立も可能
               </p>
             </CardContent>
           </Card>

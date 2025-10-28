@@ -18,7 +18,7 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-lg">活動情報</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>活動日：毎週金曜 17:00-19:00</li>
+              <li>活動日：金曜 17:00-19:00（正規）、土曜（非正規）</li>
               <li>場所：楠キャンパス体育館</li>
               <li>部費：月1,500円</li>
             </ul>
