@@ -2,17 +2,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Clock, MapPin, DollarSign } from "lucide-react";
 
 const weekDays = [
-  { day: "火曜日", active: true },
-  { day: "水曜日", active: false },
-  { day: "木曜日", active: true },
+  { day: "月曜日", active: false },
+  { day: "火曜日", active: false },
+  { day: "水曜日", active: true },
+  { day: "木曜日", active: false },
   { day: "金曜日", active: false },
-  { day: "土曜日", active: true },
-  { day: "日曜日", active: true },
+  { day: "土日", active: true },
 ];
 
 const locations = [
-  "国際文化学部体育館",
-  "アスコフットサルパークMAYA",
+  "楠キャンパス体育館",
+  "近隣フットサル施設",
 ];
 
 export const Schedule = () => {
@@ -24,7 +24,7 @@ export const Schedule = () => {
             活動日・練習情報
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            週4日の充実した練習で着実にスキルアップ
+            学業と両立しやすい、週2〜3日の活動
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export const Schedule = () => {
                 ))}
               </div>
               <p className="mt-6 text-center text-sm text-muted-foreground">
-                週4日（火・木・土・日）の活動で、学業との両立も可能
+                週2〜3日の活動で、医学部での学業との両立も可能
               </p>
             </CardContent>
           </Card>
@@ -86,9 +86,9 @@ export const Schedule = () => {
                   <DollarSign className="w-5 h-5 text-accent" />
                   <h4 className="font-semibold text-lg">部費</h4>
                 </div>
-                <p className="text-3xl font-bold text-accent">月 2,000円</p>
+                <p className="text-3xl font-bold text-accent">月 1,500円</p>
                 <p className="text-sm text-muted-foreground mt-2">
-                  リーズナブルな部費で本格的なフットサルが楽しめます
+                  施設利用料・ボール代・その他雑費
                 </p>
               </div>
             </CardContent>

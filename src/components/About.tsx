@@ -3,10 +3,10 @@ import { Users, Trophy, Target, Award } from "lucide-react";
 import teamImage from "@/assets/team-celebration.jpg";
 
 const stats = [
-  { icon: Users, label: "部員数", value: "33名", color: "text-primary" },
-  { icon: Trophy, label: "全国大会", value: "3連覇", color: "text-accent" },
-  { icon: Target, label: "週間活動", value: "4日", color: "text-primary" },
-  { icon: Award, label: "設立年", value: "2008年", color: "text-accent" },
+  { icon: Users, label: "部員数", value: "40+", color: "text-primary" },
+  { icon: Trophy, label: "医学部内大会", value: "優勝経験", color: "text-accent" },
+  { icon: Target, label: "週間活動", value: "2-3日", color: "text-primary" },
+  { icon: Award, label: "活動拠点", value: "楠キャンパス", color: "text-accent" },
 ];
 
 export const About = () => {
@@ -15,7 +15,7 @@ export const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">チーム紹介</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">最強のチームを目指してあああああああああ</p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">神戸大学医学部のフットサル部。医学科・保健学科の学生が共にプレーし、チームワークを育みます。</p>
         </div>
 
         <div className="max-w-6xl mx-auto space-y-12">
@@ -47,29 +47,30 @@ export const About = () => {
                 </CardHeader>
                 <CardContent className="space-y-4 text-base leading-relaxed">
                   <p>
-                    <strong className="text-primary">「大学フットサルの持つ可能性の追求」</strong>
+                    <strong className="text-primary">「医療現場で求められるチームワークをフットサルで磨く」</strong>
                   </p>
                   <p>
-                    私たちは、競技面で最も強く、志が最も強く、一体感が最も強く、
-                    フットサルへの想いが最も強い「最強のチーム」を目指し続けています。
+                    医学科・保健学科の学生が協力し、将来の医療現場で必要となる
+                    チームワーク、コミュニケーション能力を、フットサルを通じて楽しみながら磨きます。
+                    楠キャンパスを拠点に、学業との両立を大切にしながら活動しています。
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="border-2 border-accent bg-accent/5">
                 <CardHeader>
-                  <CardTitle className="text-2xl text-accent">栄光の歴史</CardTitle>
+                  <CardTitle className="text-2xl text-accent">活動実績</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 text-base">
                   <p>
-                    🏆 <strong>2008年〜2010年</strong>
+                    🏆 <strong>医学部内フットサル大会</strong>
                     <br />
-                    全日本学生選手権 <span className="text-accent font-bold">3連覇</span>
+                    <span className="text-accent font-bold">優勝経験</span>
                   </p>
                   <p>
-                    ⚽ Fリーグの<strong>デウソン神戸</strong>に選手を輩出
+                    ⚽ <strong>近畿医学部フットサル大会</strong>出場
                   </p>
-                  <p className="text-muted-foreground text-sm">過去の栄光に満足せず、新たな歴史を創造します</p>
+                  <p className="text-muted-foreground text-sm">医学部生として、楠キャンパスから全国へ</p>
                 </CardContent>
               </Card>
             </div>
@@ -81,15 +82,16 @@ export const About = () => {
 
               <Card className="border-2">
                 <CardHeader>
-                  <CardTitle className="text-2xl">学生主体のチーム作り</CardTitle>
+                  <CardTitle className="text-2xl">医学部生によるチーム運営</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 text-base leading-relaxed">
                   <p>
-                    当部では学生主体のチーム作りを目指しており、試合の監督や
-                    普段の練習メニューの作成もすべて学生が行っています。
+                    医学科・保健学科の学生が協力し、学年の垣根を越えたチーム作りを行っています。
+                    将来の医療現場で必要となるチームワーク、コミュニケーション能力を、
+                    フットサルを通じて楽しみながら磨くことができます。
                   </p>
                   <p>
-                    一人一人が主体的に自身のプレーについてだけでなく、 チーム全体のことを考えることができる環境です。
+                    学業との両立を第一に考え、無理のない活動スケジュールを組んでいます。
                   </p>
                 </CardContent>
               </Card>

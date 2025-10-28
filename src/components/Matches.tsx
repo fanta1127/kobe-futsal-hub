@@ -4,27 +4,27 @@ import { Calendar, MapPin, Trophy } from "lucide-react";
 
 const matches = [
   {
-    tournament: "関西学生フットサルリーグ",
-    date: "通年開催",
-    location: "関西各地",
-    status: "ongoing",
-  },
-  {
-    tournament: "全日本大学フットサル選手権",
-    date: "春〜夏",
-    location: "インカレ関西大会",
+    tournament: "医学部内フットサル大会",
+    date: "2024年6月",
+    location: "楠キャンパス体育館",
     status: "upcoming",
   },
   {
-    tournament: "神戸カップ",
-    date: "春季",
-    location: "神戸市内",
+    tournament: "近畿医学部フットサル大会",
+    date: "2024年9月",
+    location: "大阪府内体育館",
     status: "upcoming",
   },
   {
-    tournament: "全日本フットサル選手権",
-    date: "冬季",
-    location: "全国大会",
+    tournament: "西日本医学部フットサル大会",
+    date: "2024年11月",
+    location: "岡山",
+    status: "future",
+  },
+  {
+    tournament: "神戸大学学内フットサル大会",
+    date: "2024年12月",
+    location: "神戸大学",
     status: "future",
   },
 ];
@@ -38,7 +38,7 @@ export const Matches = () => {
             試合情報・大会スケジュール
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            年間を通じて様々な大会に出場しています
+            医学部内大会・近畿医学部大会への参加
           </p>
         </div>
 
@@ -78,10 +78,9 @@ export const Matches = () => {
         <div className="mt-12 text-center">
           <Card className="max-w-3xl mx-auto bg-accent/10 border-accent">
             <CardHeader>
-              <CardTitle className="text-2xl text-accent">目標：インカレ全国大会出場</CardTitle>
+              <CardTitle className="text-2xl text-accent">目標：近畿医学部大会上位入賞</CardTitle>
               <CardDescription className="text-base">
-                2008年〜2010年の全日本学生選手権3連覇の栄光を再び。
-                今年こそ全国大会の舞台へ！
+                学業と両立しながら、医学部生同士の交流を深め、チームとして成長することが私たちの目標です。
               </CardDescription>
             </CardHeader>
           </Card>

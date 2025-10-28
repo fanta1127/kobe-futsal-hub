@@ -22,9 +22,9 @@ export const Hero = () => {
           Força × Guerreilla
         </p>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-          大学フットサルの持つ可能性の追求。<br />
-          信じ、求め、開拓し続ける。<br />
-          そして最強のチームへ。
+          医療の現場で求められるチームワークを<br />
+          フットサルで磨く。<br />
+          楠キャンパスから全国へ。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="hero" size="lg" className="text-lg px-8 py-6" onClick={() => scrollToSection("recruit")}>

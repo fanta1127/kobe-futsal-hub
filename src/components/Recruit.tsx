@@ -33,7 +33,8 @@ export const Recruit = () => {
             新入部員大歓迎
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            経験者も未経験者も、フットサルに興味がある方は大歓迎です！
+            医学部生として、フットサルを楽しみながらチームワークを育みませんか？
+            医学科・保健学科問わず、経験者も初心者も大歓迎です！
           </p>
         </div>
 
@@ -76,17 +77,17 @@ export const Recruit = () => {
                 <div>
                   <h4 className="font-semibold text-lg mb-2 text-primary">必要なもの</h4>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• フットサルシューズ（体験時は貸出可）</li>
+                    <li>• 運動靴（体育館用シューズ）</li>
                     <li>• 動ける服装</li>
-                    <li>• やる気と情熱！</li>
+                    <li>• 医学部生としてのチームスピリット！</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg mb-2 text-primary">こんな方におすすめ</h4>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• 最後の部活で本気で頑張りたい</li>
-                    <li>• 仲間とともに目標を追いかけたい</li>
-                    <li>• 新しいスポーツに挑戦したい</li>
+                    <li>• 医学部での学業と両立したい</li>
+                    <li>• 医学科・保健学科の垣根を越えた仲間が欲しい</li>
+                    <li>• フットサルで楽しくリフレッシュしたい</li>
                   </ul>
                 </div>
               </div>
@@ -130,7 +131,7 @@ export const Recruit = () => {
           <Card className="text-center border-2 bg-primary/5">
             <CardContent className="py-8">
               <p className="text-xl md:text-2xl font-bold mb-2">
-                人生で最後の部活で仲間とともに頑張ってみませんか？
+                医学部生として、フットサルで充実したキャンパスライフを送りましょう！
               </p>
               <p className="text-lg text-muted-foreground">
                 部員一同、皆さんの参加をお待ちしています！
