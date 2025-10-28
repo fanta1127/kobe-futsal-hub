@@ -27,14 +27,14 @@ export const Recruit = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <div className="inline-block mb-4 px-6 py-2 bg-accent text-accent-foreground rounded-full font-bold text-lg animate-pulse">
-            部員募集中！
+            プレイヤー・マネージャー募集中！
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
             新入部員大歓迎
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             医学部生として、フットサルを楽しみながらチームワークを育みませんか？
-            医学科・保健学科問わず、経験者も初心者も大歓迎です！
+            医学科・保健学科・医療創生工学科問わず、経験者も初心者も大歓迎です！
           </p>
         </div>
 
@@ -86,7 +86,7 @@ export const Recruit = () => {
                   <h4 className="font-semibold text-lg mb-2 text-primary">こんな方におすすめ</h4>
                   <ul className="space-y-2 text-muted-foreground">
                     <li>• 医学部での学業と両立したい</li>
-                    <li>• 医学科・保健学科の垣根を越えた仲間が欲しい</li>
+                    <li>• 医学科・保健学科・医療創生工学科の垣根を越えた仲間が欲しい</li>
                     <li>• フットサルで楽しくリフレッシュしたい</li>
                     <li>• 他の部活との兼部先を探している</li>
                   </ul>
@@ -108,19 +108,10 @@ export const Recruit = () => {
                   variant="accent" 
                   size="lg" 
                   className="flex-1"
-                  onClick={() => window.open("https://twitter.com/kobe_futsal", "_blank")}
+                  onClick={() => window.open("https://www.instagram.com/kobe_med_futsal_fg/", "_blank")}
                 >
                   <ExternalLink className="w-5 h-5 mr-2" />
-                  公式Twitter
-                </Button>
-                <Button 
-                  variant="hero" 
-                  size="lg" 
-                  className="flex-1"
-                  onClick={() => window.open("https://ameblo.jp/kobefutsalfg/", "_blank")}
-                >
-                  <ExternalLink className="w-5 h-5 mr-2" />
-                  公式ブログ
+                  公式Instagram
                 </Button>
               </div>
               <p className="text-center text-sm text-muted-foreground">

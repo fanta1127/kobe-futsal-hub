@@ -15,7 +15,7 @@ export const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">チーム紹介</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">神戸大学医学部のフットサル部。医学科・保健学科の学生が共にプレーし、チームワークを育みます。</p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">神戸大学医学部のフットサル部。医学科・保健学科・医療創生工学科の学生が共にプレーし、チームワークを育みます。</p>
         </div>
 
         <div className="max-w-6xl mx-auto space-y-12">
@@ -50,7 +50,7 @@ export const About = () => {
                     <strong className="text-primary">「医療現場で求められるチームワークをフットサルで磨く」</strong>
                   </p>
                   <p>
-                    医学科・保健学科の学生が協力し、将来の医療現場で必要となる
+                    医学科・保健学科・医療創生工学科の学生が協力し、将来の医療現場で必要となる
                     チームワーク、コミュニケーション能力を、フットサルを通じて楽しみながら磨きます。
                     楠キャンパスを拠点に、学業との両立を大切にしながら活動しています。
                   </p>
@@ -65,12 +65,11 @@ export const About = () => {
                   <p>
                     🏆 <strong>医学部内フットサル大会</strong>
                     <br />
-                    <span className="text-accent font-bold">優勝経験</span>
+                    <span className="text-accent font-bold">入賞経験</span>
                   </p>
                   <p>
                     ⚽ <strong>近畿医学部フットサル大会</strong>出場
                   </p>
-                  <p className="text-muted-foreground text-sm">医学部生として、楠キャンパスから全国へ</p>
                 </CardContent>
               </Card>
             </div>
@@ -86,7 +85,7 @@ export const About = () => {
                 </CardHeader>
                 <CardContent className="space-y-3 text-base leading-relaxed">
                   <p>
-                    医学科・保健学科の学生が協力し、学年の垣根を越えたチーム作りを行っています。
+                    医学科・保健学科・医療創生工学科の学生が協力し、学年の垣根を越えたチーム作りを行っています。
                     将来の医療現場で必要となるチームワーク、コミュニケーション能力を、
                     フットサルを通じて楽しみながら磨くことができます。
                   </p>

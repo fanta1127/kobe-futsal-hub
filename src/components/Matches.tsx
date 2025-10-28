@@ -6,25 +6,25 @@ const matches = [
   {
     tournament: "近中四国医学生フットサル大会",
     date: "2025年3月",
-    location: "未定",
+    location: "島根",
     status: "upcoming",
   },
   {
     tournament: "近中四国医学生フットサル大会",
     date: "2025年5月",
-    location: "未定",
+    location: "広島",
     status: "upcoming",
   },
   {
     tournament: "西医大フットサル大会",
-    date: "2025年3月",
-    location: "未定",
+    date: "2025年6月",
+    location: "神戸",
     status: "upcoming",
   },
   {
     tournament: "オールメディカルフットサル大会",
     date: "2025年8月",
-    location: "未定",
+    location: "大阪",
     status: "future",
   },
 ];
@@ -78,7 +78,7 @@ export const Matches = () => {
         <div className="mt-12 text-center">
           <Card className="max-w-3xl mx-auto bg-accent/10 border-accent">
             <CardHeader>
-              <CardTitle className="text-2xl text-accent">目標：各種医学生大会での上位入賞</CardTitle>
+              <CardTitle className="text-2xl text-accent">目標：各種医学生大会での入賞</CardTitle>
               <CardDescription className="text-base">
                 学業と両立しながら、医学部生同士の交流を深め、チームとして成長することが私たちの目標です。
               </CardDescription>

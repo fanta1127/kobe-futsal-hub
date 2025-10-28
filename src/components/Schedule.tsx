@@ -87,13 +87,13 @@ export const Schedule = () => {
                 </div>
               </div>
 
-              <div className="p-4 bg-accent/10 rounded-lg border-2 border-accent">
+              <div className="p-4 bg-secondary/50 rounded-lg">
                 <div className="flex items-center gap-2 mb-2">
-                  <DollarSign className="w-5 h-5 text-accent" />
-                  <h4 className="font-semibold text-lg">部費</h4>
+                  <DollarSign className="w-4 h-4 text-muted-foreground" />
+                  <h4 className="font-semibold text-base">部費</h4>
                 </div>
-                <p className="text-3xl font-bold text-accent">年間 20,000円</p>
-                <p className="text-sm text-muted-foreground mt-2">
+                <p className="text-xl font-semibold">年間 20,000円</p>
+                <p className="text-xs text-muted-foreground mt-1">
                   施設利用料・ボール代・その他雑費
                 </p>
               </div>

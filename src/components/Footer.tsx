@@ -9,7 +9,6 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4">神戸大学医学部フットサル部</h3>
-            <p className="text-primary-foreground/80 mb-2">Força × Guerreilla</p>
             <p className="text-sm text-primary-foreground/60">
               医学部生によるフットサル部。楠キャンパスを拠点に活動中。
             </p>
@@ -36,39 +35,12 @@ export const Footer = () => {
                 <ExternalLink className="w-4 h-4" />
                 公式Instagram
               </a>
-              <a 
-                href="https://twitter.com/kobe_futsal"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm hover:text-accent transition-colors"
-              >
-                <Twitter className="w-4 h-4" />
-                公式Twitter
-              </a>
-              <a 
-                href="https://ameblo.jp/kobefutsalfg/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm hover:text-accent transition-colors"
-              >
-                <ExternalLink className="w-4 h-4" />
-                公式ブログ
-              </a>
-              <a 
-                href="https://kobeu-sau.jp/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm hover:text-accent transition-colors"
-              >
-                <ExternalLink className="w-4 h-4" />
-                神戸大学体育会
-              </a>
             </div>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>© {currentYear} 神戸大学医学部フットサル部 Força × Guerreilla. All rights reserved.</p>
+          <p>© {currentYear} 神戸大学医学部フットサル部. All rights reserved.</p>
         </div>
       </div>
     </footer>
